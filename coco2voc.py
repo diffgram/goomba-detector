@@ -7,7 +7,8 @@ import os.path
 import json
 def convert_coco_to_voc(coco_path):
     """
-        Get all images in coco json file and download them into a folder.
+        Get all images in coco json file and download them into a folder matching the
+        VOC format.
     :param coco_path: Path to coco file
     :return:
     """

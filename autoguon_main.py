@@ -13,7 +13,6 @@ dataset_train = task.Dataset(data_root, classes = ('goomba',), format = 'voc')
 dataset_test = task.Dataset(data_root, index_file_name = 'test', classes = ('goomba',), format = 'voc')
 
 epochs = 20
-# Fit model.
 detector = task.fit(dataset_train,
                     num_trials = 3,
                     batch_size = 8,
